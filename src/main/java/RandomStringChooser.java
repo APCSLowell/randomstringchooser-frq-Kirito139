@@ -3,7 +3,7 @@ public class RandomStringChooser {
   /* to be implemented in part (a) */
   private ArrayList<String> validWords = new ArrayList<String>();
   public RandomStringChooser(String[] words) {
-      for (string word : words) {
+      for (String word : words) {
           validWords.add(word);
       }
   }
