@@ -11,7 +11,7 @@ public class RandomStringChooser {
   public String getNext() {
       int rando = (int)(Math.random() * validWords.size());
       if (validWords.size() == 0) return "NONE";
-      else String ans = validWords.get(rando);
+      String ans = validWords.get(rando);
       validWords.remove(rando);
       return ans;
   }
